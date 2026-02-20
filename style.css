@@ -1,0 +1,17 @@
+#content {
+    display: flex;
+    border: black solid 1px;
+    width: 960px;
+    height: 960px;
+    margin: auto;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.square {
+    display: flex;
+    border: black solid 1px;
+    flex: 1 1 auto;
+    margin: 0px;
+}
