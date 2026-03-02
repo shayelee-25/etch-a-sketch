@@ -1,6 +1,7 @@
 const contentContainer = document.querySelector("#content");
 const createGridBtn = document.createElement("button");
 createGridBtn.textContent = "New Grid";
+createGridBtn.classList.add("button");
 const btnContainer = document.querySelector(".btn");
 btnContainer.appendChild(createGridBtn);
 
