@@ -1,17 +1,47 @@
+body {
+    background-color: rgb(255, 249, 238);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #content {
     display: flex;
-    border: black solid 1px;
     width: 960px;
     height: 960px;
     margin: auto;
-    flex-grow: 0;
     flex-wrap: wrap;
-    flex-direction: column;
+    background-color: rgb(255, 218, 241);
 }
 
 .square {
     display: flex;
-    border: black solid 1px;
     flex: 1 1 auto;
-    margin: 0px;
+    aspect-ratio: 1 / 1;
 }
+
+.square.orange {
+    background-color: rgb(255, 166, 0);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    color: rgb(255, 166, 0);
+    padding: 20px
+}
+
+#title {
+    font-size: 50px;
+}
+
+.button {
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 8px;
+    border: double rgb(255, 166, 0);
+    background-color: rgb(255, 218, 241);
+    color: rgb(255, 166, 0);
+}
+
